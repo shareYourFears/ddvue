@@ -1,21 +1,19 @@
 <template>
-<div class="message">{{ msg }}</div>
+<div class="message">asdfsdf{{ msg }}</div>
 </template>
 
 <script>
-import Vue from 'vue'
-
-export default Vue.extend({
-  data () {
-    return {
-      msg: 'component here'
-    }
-  }
-});
+export default {
+	data () {
+		return {
+			msg: 'Component here'
+		}
+	}
+}
 </script>
 
 <style>
 .message {
-  color: blue;
+	color: red;
 }
 </style>
